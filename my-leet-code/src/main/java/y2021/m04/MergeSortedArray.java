@@ -73,7 +73,7 @@ public class MergeSortedArray {
         int[] nums2 = new int[]{1};
         int n = 1;
 
-        new m04.MergeSortedArray().merge(nums1, m, nums2, n);
+        new MergeSortedArray().merge(nums1, m, nums2, n);
 
         System.out.println(nums1);
     }

@@ -49,7 +49,7 @@ public class Foo {
 
 
     public static void main(String[] args) {
-        m04.Foo foo = new m04.Foo();
+        Foo foo = new Foo();
         Runnable runnable1 = new Runnable() {
             @Override
             public void run() {

@@ -17,9 +17,9 @@ package y2021.m04;
  */
 class Node {
     public int val;
-    public m04.Node left;
-    public m04.Node right;
-    public m04.Node next;
+    public Node left;
+    public Node right;
+    public Node next;
 
     public Node() {}
 
@@ -27,7 +27,7 @@ class Node {
         val = _val;
     }
 
-    public Node(int _val, m04.Node _left, m04.Node _right, m04.Node _next) {
+    public Node(int _val, Node _left, Node _right, Node _next) {
         val = _val;
         left = _left;
         right = _right;
@@ -37,12 +37,12 @@ class Node {
 
 public class PopulatingNextRight {
 
-    public m04.Node connect(m04.Node root) {
+    public Node connect(Node root) {
 
         int val = root.val;
-        m04.Node left = root.left;
-        m04.Node right = root.right;
-        m04.Node next = root.next;
+        Node left = root.left;
+        Node right = root.right;
+        Node next = root.next;
         if (val==1){
             next = null;
         }

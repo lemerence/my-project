@@ -69,7 +69,7 @@ public class ClumsyFactorial {
 
     public static void main(String[] args) {
         long begin = System.currentTimeMillis();
-        System.out.println(new m04.ClumsyFactorial().clumsy2(10000000));
+        System.out.println(new ClumsyFactorial().clumsy2(10000000));
         long end = System.currentTimeMillis();
         System.out.println("运行时间："+String.valueOf(end-begin));
 

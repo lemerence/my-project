@@ -102,6 +102,6 @@ public class UglyNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(new m04.UglyNumber().nthUglyNumber1(4));
+        System.out.println(new UglyNumber().nthUglyNumber1(4));
     }
 }
