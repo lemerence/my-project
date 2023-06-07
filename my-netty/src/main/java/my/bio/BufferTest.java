@@ -1,4 +1,4 @@
-package my.netty.bio;
+package my.bio;
 
 
 import java.io.IOException;
